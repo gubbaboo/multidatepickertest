@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BD0CF1932D8C791B0050FFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0CF1782D8C79180050FFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0CF17F2D8C79180050FFDF;
+			remoteInfo = multidatepicktest;
+		};
+		BD0CF19D2D8C791B0050FFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0CF1782D8C79180050FFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0CF17F2D8C79180050FFDF;
+			remoteInfo = multidatepicktest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD0CF1802D8C79180050FFDF /* multidatepicktest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multidatepicktest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0CF1922D8C791B0050FFDF /* multidatepicktestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multidatepicktestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0CF19C2D8C791B0050FFDF /* multidatepicktestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multidatepicktestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BD0CF1822D8C79180050FFDF /* multidatepicktest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = multidatepicktest;
+			sourceTree = "<group>";
+		};
+		BD0CF1952D8C791B0050FFDF /* multidatepicktestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = multidatepicktestTests;
+			sourceTree = "<group>";
+		};
+		BD0CF19F2D8C791B0050FFDF /* multidatepicktestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = multidatepicktestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD0CF17D2D8C79180050FFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0CF18F2D8C791B0050FFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0CF1992D8C791B0050FFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD0CF1772D8C79180050FFDF = {
+			isa = PBXGroup;
+			children = (
+				BD0CF1822D8C79180050FFDF /* multidatepicktest */,
+				BD0CF1952D8C791B0050FFDF /* multidatepicktestTests */,
+				BD0CF19F2D8C791B0050FFDF /* multidatepicktestUITests */,
+				BD0CF1812D8C79180050FFDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD0CF1812D8C79180050FFDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD0CF1802D8C79180050FFDF /* multidatepicktest.app */,
+				BD0CF1922D8C791B0050FFDF /* multidatepicktestTests.xctest */,
+				BD0CF19C2D8C791B0050FFDF /* multidatepicktestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD0CF17F2D8C79180050FFDF /* multidatepicktest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0CF1A62D8C791B0050FFDF /* Build configuration list for PBXNativeTarget "multidatepicktest" */;
+			buildPhases = (
+				BD0CF17C2D8C79180050FFDF /* Sources */,
+				BD0CF17D2D8C79180050FFDF /* Frameworks */,
+				BD0CF17E2D8C79180050FFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BD0CF1822D8C79180050FFDF /* multidatepicktest */,
+			);
+			name = multidatepicktest;
+			packageProductDependencies = (
+			);
+			productName = multidatepicktest;
+			productReference = BD0CF1802D8C79180050FFDF /* multidatepicktest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD0CF1912D8C791B0050FFDF /* multidatepicktestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0CF1A92D8C791B0050FFDF /* Build configuration list for PBXNativeTarget "multidatepicktestTests" */;
+			buildPhases = (
+				BD0CF18E2D8C791B0050FFDF /* Sources */,
+				BD0CF18F2D8C791B0050FFDF /* Frameworks */,
+				BD0CF1902D8C791B0050FFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0CF1942D8C791B0050FFDF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BD0CF1952D8C791B0050FFDF /* multidatepicktestTests */,
+			);
+			name = multidatepicktestTests;
+			packageProductDependencies = (
+			);
+			productName = multidatepicktestTests;
+			productReference = BD0CF1922D8C791B0050FFDF /* multidatepicktestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD0CF19B2D8C791B0050FFDF /* multidatepicktestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0CF1AC2D8C791B0050FFDF /* Build configuration list for PBXNativeTarget "multidatepicktestUITests" */;
+			buildPhases = (
+				BD0CF1982D8C791B0050FFDF /* Sources */,
+				BD0CF1992D8C791B0050FFDF /* Frameworks */,
+				BD0CF19A2D8C791B0050FFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0CF19E2D8C791B0050FFDF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BD0CF19F2D8C791B0050FFDF /* multidatepicktestUITests */,
+			);
+			name = multidatepicktestUITests;
+			packageProductDependencies = (
+			);
+			productName = multidatepicktestUITests;
+			productReference = BD0CF19C2D8C791B0050FFDF /* multidatepicktestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD0CF1782D8C79180050FFDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BD0CF17F2D8C79180050FFDF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BD0CF1912D8C791B0050FFDF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BD0CF17F2D8C79180050FFDF;
+					};
+					BD0CF19B2D8C791B0050FFDF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BD0CF17F2D8C79180050FFDF;
+					};
+				};
+			};
+			buildConfigurationList = BD0CF17B2D8C79180050FFDF /* Build configuration list for PBXProject "multidatepicktest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD0CF1772D8C79180050FFDF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BD0CF1812D8C79180050FFDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD0CF17F2D8C79180050FFDF /* multidatepicktest */,
+				BD0CF1912D8C791B0050FFDF /* multidatepicktestTests */,
+				BD0CF19B2D8C791B0050FFDF /* multidatepicktestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD0CF17E2D8C79180050FFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0CF1902D8C791B0050FFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0CF19A2D8C791B0050FFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD0CF17C2D8C79180050FFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0CF18E2D8C791B0050FFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0CF1982D8C791B0050FFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD0CF1942D8C791B0050FFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD0CF17F2D8C79180050FFDF /* multidatepicktest */;
+			targetProxy = BD0CF1932D8C791B0050FFDF /* PBXContainerItemProxy */;
+		};
+		BD0CF19E2D8C791B0050FFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD0CF17F2D8C79180050FFDF /* multidatepicktest */;
+			targetProxy = BD0CF19D2D8C791B0050FFDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD0CF1A42D8C791B0050FFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD0CF1A52D8C791B0050FFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD0CF1A72D8C791B0050FFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"multidatepicktest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EPSchools.multidatepicktest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD0CF1A82D8C791B0050FFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"multidatepicktest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EPSchools.multidatepicktest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD0CF1AA2D8C791B0050FFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EPSchools.multidatepicktestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multidatepicktest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/multidatepicktest";
+			};
+			name = Debug;
+		};
+		BD0CF1AB2D8C791B0050FFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EPSchools.multidatepicktestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multidatepicktest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/multidatepicktest";
+			};
+			name = Release;
+		};
+		BD0CF1AD2D8C791B0050FFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EPSchools.multidatepicktestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = multidatepicktest;
+			};
+			name = Debug;
+		};
+		BD0CF1AE2D8C791B0050FFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EPSchools.multidatepicktestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = multidatepicktest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD0CF17B2D8C79180050FFDF /* Build configuration list for PBXProject "multidatepicktest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0CF1A42D8C791B0050FFDF /* Debug */,
+				BD0CF1A52D8C791B0050FFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0CF1A62D8C791B0050FFDF /* Build configuration list for PBXNativeTarget "multidatepicktest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0CF1A72D8C791B0050FFDF /* Debug */,
+				BD0CF1A82D8C791B0050FFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0CF1A92D8C791B0050FFDF /* Build configuration list for PBXNativeTarget "multidatepicktestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0CF1AA2D8C791B0050FFDF /* Debug */,
+				BD0CF1AB2D8C791B0050FFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0CF1AC2D8C791B0050FFDF /* Build configuration list for PBXNativeTarget "multidatepicktestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0CF1AD2D8C791B0050FFDF /* Debug */,
+				BD0CF1AE2D8C791B0050FFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD0CF1782D8C79180050FFDF /* Project object */;
+}
